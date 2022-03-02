@@ -1,0 +1,29 @@
+{
+  "name": "mortgage-cal-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "mortgage-cal-site",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.6",
+    "gatsby": "^4.8.2",
+    "gatsby-plugin-image": "^2.9.0",
+    "gatsby-plugin-sharp": "^4.9.0",
+    "gatsby-plugin-styled-components": "^5.9.0",
+    "gatsby-source-contentful": "^7.7.0",
+    "gatsby-source-filesystem": "^4.9.0",
+    "gatsby-transformer-sharp": "^4.9.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.3.3"
+  }
+}
