@@ -14,7 +14,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@material-ui/icons": "^4.11.2",
     "babel-plugin-styled-components": "^2.0.6",
+    "dotenv": "^16.0.0",
     "gatsby": "^4.8.2",
     "gatsby-plugin-image": "^2.9.0",
     "gatsby-plugin-sharp": "^4.9.0",

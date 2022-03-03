@@ -1,3 +1,4 @@
+require("dotenv").config();
 module.exports = {
   siteMetadata: {
       title: ``,
@@ -6,8 +7,8 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "",
-      "spaceId": ""
+      "accessToken": process.env.CONTENTFUL_ACCESS_TOKEN,
+      "spaceId": process.env.CONTENTFUL_SPACEID,
     }
   }, "gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
